@@ -1,0 +1,133 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo img {
+    display: none;
+  }
+  /* top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+  } */
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .nav_list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #e59446;
+    width: 100%;
+    padding: 12px;
+  }
+  
+  .nav a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background: black;
+   
+    color: white;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+  }
+  .nav a:active {
+    text-decoration: none;
+    font-weight: bold;
+    background: black;
+   border:none;
+    color: white;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #hamburger {
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    transition: all 0.2s ease-in-out;
+    align-items: center;
+    min-width: 44px;
+    min-height: 44px;
+    background-color: transparent;
+    border: none;
+    /* z-index: 999; */
+    justify-content: center;
+  }
+  
+  .nav a:focus {
+    text-decoration: none;
+    font-weight: bold;
+    background: black;
+    padding: 15px;
+    outline: 2px solid orange;
+    color: white;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .header_title {
+    display: inline;
+    color: #e59446;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+  
+  #hamburger.rotate {
+    transform: rotate(90deg) ;
+    transform-origin: center center;
+
+  }
+  li a {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 10px;
+  }
+  #drawer {
+    width: 100%;
+    top: 68px;
+    position: absolute;
+    right: 0;
+    /* menyembunyikan #drawer -250px (sesuai dengan ukuran lebar drawer) ke kiri */
+    transform: translateX(-100%);
+    transition: all 0.8s;
+    background-color: white;
+    z-index: 5;
+    opacity: 0;
+  }
+  #drawer.open {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  
+ 
+  
+  .nav_list {
+    flex-direction: column;
+  }
+  
+  .nav_item {
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }

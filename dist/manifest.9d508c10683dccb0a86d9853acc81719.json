@@ -1,0 +1,90 @@
+{
+  "icons": [
+    {
+      "src": "icons/ios/icon_512x512.0eeca6ef1c9edc0e1965c92df9a8b771.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/ios/icon_192x192.fa7b92c63042b40c6eb6d077a5d9ddd9.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/ios/icon_180x180.7a84bec915e43783efbd41faa3822dd5.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_512x512.0eeca6ef1c9edc0e1965c92df9a8b771.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_384x384.354bca4007a5032d6fd1e6b45a00b764.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_256x256.ffcfacff726bd93e47faf91f418cb189.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_192x192.fa7b92c63042b40c6eb6d077a5d9ddd9.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_180x180.7a84bec915e43783efbd41faa3822dd5.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_167x167.d1213f49fd1d7f923d196c24eaa95063.png",
+      "sizes": "167x167",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_152x152.8b3dcab333a6cd26770298300d7cb7f3.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_128x128.7b2b411d0804d13ca6ad082cf4d2ec68.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_120x120.eaf58d7ad8bc59d9c52bcdfe5f237b44.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon/icon_96x96.dd3a57011902964304a57bf2bb56a887.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "Go Eat App",
+  "short_name": "Go Eat",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "description": "Katalog Restaurant, menampilkan katalog restaurant Terkenal",
+  "background_color": "#ffffff",
+  "theme_color": "#e59446"
+}
