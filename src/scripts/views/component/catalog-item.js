@@ -9,8 +9,7 @@ class CatalogItem extends HTMLElement {
   render() {
     this.innerHTML = `
     <div class="catalog-item" data-id="${this._restaurant.id}">
-        <div class="card resto_item">
-           
+        <div class="card resto_item"> 
             <picture class="item-image">
                 <source media="(max-width: 600px)" srcset="${CONFIG.BASE_IMAGE_URL_SMALL}${this._restaurant.pictureId}">
                 <img class="lazyload" data-src="${CONFIG.BASE_IMAGE_URL_MEDIUM}${this._restaurant.pictureId}" alt="gambar restoran ${this._restaurant.name}">

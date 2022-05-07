@@ -41,13 +41,13 @@ Scenario('liking one restaurant', async ({ I }) => {
 
 Scenario('cancel liking restaurant', async ({ I }) => {
   I.amOnPage('/');
-
+  I.waitForElement('catalog-item');
   I.seeElement('.item-title a');
   //   pause();
   const firstItem = locate('.item-title a').first();
   const firstItemTitle = await I.grabTextFrom(firstItem);
   console.log(firstItemTitle);
-  I.waitForElement('catalog-item');
+
   I.click(firstItem);
 
   I.seeElement('.detail_poster');
