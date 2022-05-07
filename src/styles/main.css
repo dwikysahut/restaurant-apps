@@ -23,6 +23,10 @@ body,html {
 body {
     overflow-x: hidden;
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
 top-bar{
     display: block;
  }
@@ -227,7 +231,7 @@ catalog-item {
     text-align: center;
     font-weight: 300;
     font-size: 32px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .content_title::after {
     content: '';
