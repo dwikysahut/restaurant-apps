@@ -94,15 +94,14 @@ img {
   }
 .hero{
     display: flex;
-    filter: brightness(95%);
     align-items: center;
     text-align: center;
     min-height: 60vh;
     justify-content: center;
     flex: 1;
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     color: white;
     /* background-image: url('../public/images/heros/hero-image_2.jpg'); */
 }
