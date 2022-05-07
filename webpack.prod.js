@@ -34,6 +34,11 @@ module.exports = merge(common, {
       },
     ],
   },
+  plugins: [
+    new CleanWebpackPlugin(),
+    new CompressionWebpackPlugin(),
+    new MiniCssExtractPlugin({ filename: '[name].[contentHash].css' }),
+  ],
   optimization: {
     minimizer: [
       new OptimizeCSSAssetsPlugin(),
@@ -69,9 +74,4 @@ module.exports = merge(common, {
       },
     },
   },
-  plugins: [
-    new CleanWebpackPlugin(),
-    new CompressionWebpackPlugin(),
-    new MiniCssExtractPlugin({ filename: '[name].[contentHash].css' }),
-  ],
 });

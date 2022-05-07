@@ -81,7 +81,8 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({ filename: '[name].[contentHash].css' }),
     new BundleAnalyzerPlugin({
-      analyzerMode: 'disabled',
+      analyzerMode: 'static',
+      openAnalyzer: false,
     }),
   ],
 };
