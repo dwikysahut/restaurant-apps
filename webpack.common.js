@@ -5,7 +5,7 @@ const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
 const ImageminMozjpeg = require('imagemin-mozjpeg');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
@@ -74,11 +74,12 @@ module.exports = {
     new ImageminWebpackPlugin({
       plugins: [
         ImageminMozjpeg({
-          quality: 60,
+          quality: 50,
           progressive: true,
         }),
       ],
     }),
+    new MiniCssExtractPlugin({ filename: '[name].[contentHash].css' }),
     new BundleAnalyzerPlugin({
       analyzerMode: 'disabled',
     }),

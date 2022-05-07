@@ -5,6 +5,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto
-    
+    margin-top: auto;
+    font-size: 0.6rem;
 }

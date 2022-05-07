@@ -32,7 +32,7 @@ top-bar{
  }
  main {
     /* scroll-margin-top:40px; */
-    margin: 16px;
+    margin: 4px;
  }
  .skip-link{
      position: absolute;
@@ -102,7 +102,7 @@ img {
     align-items: center;
     text-align: center;
     min-height: 60vh;
-    max-height: 300px;
+    height: 20rem;
     justify-content: center;
     flex: 1;
     background-size: cover;

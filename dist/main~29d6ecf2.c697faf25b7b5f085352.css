@@ -132,10 +132,14 @@ header {
     justify-content: center;
   }
 footer {
-    padding: 20px;
-    text-align: center;
-    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    /* box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3); */
+    border-top: 0.3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: auto;
+    font-size: 0.6rem;
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,900;1,100;1,600&family=Quicksand:wght@300;400;700&display=swap'); */
 
@@ -160,12 +164,16 @@ body,html {
 body {
     overflow-x: hidden;
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
 top-bar{
     display: block;
  }
  main {
     /* scroll-margin-top:40px; */
-    margin: 16px;
+    margin: 4px;
  }
  .skip-link{
      position: absolute;
@@ -235,6 +243,7 @@ img {
     align-items: center;
     text-align: center;
     min-height: 60vh;
+    max-height: 300px;
     justify-content: center;
     flex: 1;
     background-size: cover;
@@ -363,7 +372,7 @@ catalog-item {
     text-align: center;
     font-weight: 300;
     font-size: 32px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .content_title::after {
     content: '';
@@ -824,6 +833,9 @@ review-component {
   }
   .hero {
     min-height: 80vh;
+  }
+  footer{
+    font-size: 0.8rem;
   }
  
   /* .catalog-list{

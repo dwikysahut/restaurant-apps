@@ -193,6 +193,9 @@
   .hero {
     min-height: 80vh;
   }
+  footer{
+    font-size: 0.8rem;
+  }
  
   /* .catalog-list{
     grid-template-columns: repeat(3,1fr);
