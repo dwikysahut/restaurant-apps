@@ -1,7 +1,9 @@
 footer {
     padding: 10px;
-    text-align: center;
-    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
-    margin-top: auto;
-    position: relative;
+    /* box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3); */
+    border-top: 0.3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
 }
